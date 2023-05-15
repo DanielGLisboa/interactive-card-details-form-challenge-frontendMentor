@@ -40,7 +40,7 @@ function PaymentCardRegister() {
         </CardDataProvider>
       </div>
       <footer className="footer">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/DanielGLisboa" target="_blank">Daniel Guerra Lisboa</a>.</footer>
+    Coded by <a href="https://github.com/DanielGLisboa/interactive-card-details-form-challenge-frontendMentor" target="_blank">Daniel Guerra Lisboa</a>.</footer>
     </main>
   );
 }
