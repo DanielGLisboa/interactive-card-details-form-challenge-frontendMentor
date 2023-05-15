@@ -1,0 +1,43 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.divCompleteState{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 280px;
+ 
+}
+
+.centralMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+
+}
+
+.titleMessage{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.message{
+    color:  #a5a5a5 ;
+}
+.buttonContinue{
+    width: 100%;
+    height: 54px;
+    background-color: hsl(278, 68%, 11%) !important;
+    border: none !important;
+}

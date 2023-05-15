@@ -1,0 +1,105 @@
+.divCardDataVisualization {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.frontVisualizationCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../../assets/images/bg-card-front.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 445px;
+  height: 245px;
+  padding: 27px;
+}
+
+.cardLogo{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   width: 85px;
+   height: 50px;
+ 
+}
+
+.cardLogo::after{
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+
+}
+
+.cardLogo::before{
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+  left: 75%;
+}
+
+.cardInformations{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 382px;
+  height: 75px;
+}
+
+.cardNumber{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 25px;
+  font-size: 25px;
+}
+
+.divCardNameAndExpDate{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 16px;
+}
+
+.backVisualizationCard {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-image: url(../../assets/images/bg-card-back.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 445px;
+  height: 245px;
+  align-self: flex-end;
+  padding: 0 60px;
+}
+
+.divCvv{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  width: 40px;
+  height: 20px;
+  
+}
+
+.backVisualizationCard,
+.frontVisualizationCard {
+  border-radius: 15px;
+  box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.192),
+    10px 30px 30px rgba(0, 0, 0, 0.192);
+}
+

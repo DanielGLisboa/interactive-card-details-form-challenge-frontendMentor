@@ -1,0 +1,64 @@
+.content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 130px;
+  left: 50px;
+  width: 1110px;
+  height: 550px;
+}
+
+.divImgOffline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  background-color: #6868684b;
+  border: solid #686868;
+  border-radius: 50%;
+  box-shadow: 10px 20px 30px rgba(45, 14, 100, 0.192),
+    10px 20px 30px rgba(44, 9, 104, 0.192);
+}
+
+.divMessageOffline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  background-color: #faeaea;
+  border: solid #ff5252;
+  border-radius: 70px;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.192),
+    10px 20px 30px rgba(0, 0, 0, 0.192);
+}
+
+.divMessageOffline::after {
+  position: absolute;
+  content: "";
+  top: 130px;
+  left: -64px;
+  width: 120px;
+  height: 120px;
+  background-color: #faeaea;
+  border-left: solid #ff5252;
+  border-top: solid #ff5252;
+  rotate: -45deg;
+}
+
+.titleMessage {
+  font-size: 70px;
+  color: #ff5252;
+}
+
+.lineMessage {
+  font-size: 25px;
+  color: #686868;
+  z-index: 1;
+}

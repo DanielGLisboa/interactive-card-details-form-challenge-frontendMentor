@@ -1,0 +1,114 @@
+.divCardRegistrationForm {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.cardRegistrationForm {
+  display: grid;
+  width: 382px;
+  height: 420px;
+}
+
+.divInputs {
+  display: flex;
+  flex-direction: column;
+  height: 75px;
+  min-height: 70px;
+  margin-top: 28px;
+}
+
+.input {
+  all: unset !important;
+  height: 45px !important;
+  min-height: 45px !important;
+  background-color: white !important;
+  font-size: 18px !important;
+  border: 1px solid #dddddd !important ;
+  border-radius: 8px !important;
+  padding: 0 10px !important;
+  cursor: pointer !important;
+  margin-top: 10px !important;
+}
+
+.input::placeholder {
+  color: #a5a5a5;
+}
+
+.input:focus {
+  border: 1px outset #600594 !important;
+}
+
+.inputInvalid {
+  border: 1px outset #ff5252 !important;
+}
+
+.divLastGroupInputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divInputsExp {
+  display: flex;
+  flex-direction: column;
+  height: 75px;
+  width: 172px;
+  margin-top: 28px;
+  /* background-color: rgba(44, 189, 7, 0.699); */
+}
+
+.inputsExpirationsDate {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  max-height: 55px;
+  width: 172px;
+}
+
+.inputExp {
+  all: unset !important;
+  height: 45px !important;
+  max-width: 60px !important;
+  min-height: 45px !important;
+  background-color: white !important;
+  font-size: 18px !important;
+  border: 1px solid #dddddd !important;
+  border-radius: 8px !important;
+  padding: 0 10px !important;
+  cursor: pointer !important;
+  margin-top: 10px !important;
+  font-family: "Space Grotesk", sans-serif !important;
+  font-weight: 600 !important;
+  box-sizing: border-box;
+}
+
+.inputExp::placeholder {
+  color: #a5a5a5;
+}
+
+.inputExp:focus {
+  border: 1px solid #600594 !important;
+  border-style: outset !important;
+}
+
+.inputExpInvalid {
+  border: 1px solid #ff5252 !important;
+  border-style: outset !important;
+}
+
+.inputCvv {
+  width: 160px !important;
+}
+
+.buttonConfirm {
+  align-self: end;
+  height: 54px;
+  background-color: hsl(278, 68%, 11%) !important;
+  border: none !important;
+}
+
+.errorMessage {
+  color: #ff5252;
+}
