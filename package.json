@@ -1,6 +1,6 @@
 {
   "name": "interactive-card-details-form",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "interactive-card-details-form-challenge-frontendMentor/",
   "type": "module",
