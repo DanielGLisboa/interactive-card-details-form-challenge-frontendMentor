@@ -2,7 +2,7 @@
   "name": "interactive-card-details-form",
   "private": true,
   "version": "0.0.0",
-  "homepage": "interactive-card-details-form-challenge-frontendMentor/src/",
+  "homepage": "interactive-card-details-form-challenge-frontendMentor/",
   "type": "module",
   "scripts": {
     "dev": "vite",
