@@ -7,7 +7,7 @@ on:
 
   jobs:
     deploy:
-      runs-on: windows-11
+      runs-on: windows-latest
       steps: 
         - uses: actions/checkout@v2
         - uses: actions/setup-node@v1
@@ -18,7 +18,11 @@ on:
             npm ci
             npm run build
         - name: Deploy to gh-pages
-          uses: peaceiris/actions-gh-pages@v3
+            env:
+              GITHUB_SHA: ${{GITHUB_SHA}}
+            run: tar -czf "${{GITHUB_SHA}}".tar.gz build
+        - name: Storing artifact
+          uses: actions/upload-artifact@v2
           with:
-            github_token: ${{ secrets.GUTHUN_TOKEN }}
-            publish_dir: ./build
+            name: app-build
+            path: ${{ github.sha }}.tar.gz
